@@ -51,9 +51,9 @@ public class TC_AddCustomer_003 extends BaseClass{
 		
 		Thread.sleep(4000);
 		logger.info("Customer addedd scuccessfully - Validation.......");
-		
+		Thread.sleep(5000);
 		boolean validation = driver.getPageSource().contains("Customer Registered Successfully!!!");
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		if(validation==true)
 		{
 			Assert.assertTrue(true);
