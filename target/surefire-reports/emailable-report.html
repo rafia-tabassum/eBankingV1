@@ -9,10 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">eBankingV1</th></tr>
-<tr><td><a href="#t0">ebanking Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">37,555</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ebanking Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,544</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">eBankingV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ebanking Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.eBankingV1.testCases.TC_AddCustomer_003</td><td><a href="#m0">AddcustomerTest</a></td><td rowspan="1">1613372475555</td><td rowspan="1">28549</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">eBankingV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ebanking Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.eBankingV1.testCases.TC_AddCustomer_003</td><td><a href="#m0">AddcustomerTest</a></td><td rowspan="1">1618239264214</td><td rowspan="1">4158</td></tr></tbody>
 </table>
-<h2>ebanking Test</h2><h3 id="m0">com.eBankingV1.testCases.TC_AddCustomer_003#AddcustomerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ebanking Test</h2><h3 id="m0">com.eBankingV1.testCases.TC_AddCustomer_003#AddcustomerTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=89.0.4389.114): User or Password is not valid
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-8D17UU8&apos;, ip: &apos;192.168.0.161&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Arbree\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61368}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 851d35180849fad7d295c2a195fc3dc3
+*** Element info: {Using=xpath, value=/html/body/div[3]/div/ul/li[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.eBanikngV1.pageObjects.AddCustomerObject.clickAddnewCustomer(AddCustomerObject.java:70)
+	at com.eBankingV1.testCases.TC_AddCustomer_003.AddcustomerTest(TC_AddCustomer_003.java:31)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
